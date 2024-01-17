@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_item"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp">
+
+        <TextView android:id="@+id/txt_className"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="LTW Chiều Thứ 4"/>
+        <TextView android:id="@+id/txt_classID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8BC34A"
+            android:textStyle="bold"
+            android:text="232123038407"/>
+        <TextView android:id="@+id/txt_classMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5412131B"
+            android:textStyle="bold"
+            android:text="Công Nghệ Thông Tin"/>
+
+    </LinearLayout>
+</LinearLayout>
