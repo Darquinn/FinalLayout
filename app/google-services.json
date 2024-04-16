@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "165279858859",
+    "project_id": "signupapptracnghiem",
+    "storage_bucket": "signupapptracnghiem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165279858859:android:434fa1dc331acb5a1a77ee",
+        "android_client_info": {
+          "package_name": "com.example.finallayout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71KoKiqonWvuZXDXE7xtaotbdllEwOJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

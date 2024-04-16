@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/profile_avatar_img"
+        android:width="@dimen/avatar_size"
+        android:height="@dimen/avatar_size" />
+</layer-list >

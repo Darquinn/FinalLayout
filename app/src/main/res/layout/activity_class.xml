@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ClassActivity">
+    <include layout="@layout/class_toolbar"/>
+
+    <TextView android:id="@+id/txt_className"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="LTW Chiều Thứ 4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Mã môn học: "/>
+        <TextView android:id="@+id/txt_classID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4CAF50"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:text="232123038407"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Chuyên ngành: "/>
+        <TextView android:id="@+id/txt_classMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00BCD4"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="Công Nghệ Thông Tin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Giáo viên: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Cơ sở: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mã lớp: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Tiết: "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/txt_classTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:textStyle="bold"
+                android:text="Nguyễn Thị Mỹ Hạnh"/>
+            <TextView android:id="@+id/txt_classBase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:textStyle="bold"
+                android:text="Sư Vạn Hạnh"/>
+            <TextView android:id="@+id/txt_classSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:textStyle="bold"
+                android:text="B21"/>
+            <TextView android:id="@+id/txt_classLesson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:textStyle="bold"
+                android:text="10-12"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button android:id="@+id/btn_DiemDanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+
+        android:text="Điểm danh"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="685dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_profile_background"
+        android:elevation="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/custom_profile_avatar_img"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Phan Hồ Thiên Lân"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF5722"
+                android:textStyle="bold"
+                android:text="Sinh Viên"/>
+
+            <Button android:id="@+id/profile_btn_infor"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/custom_profile_infor_ic"
+                android:layout_marginVertical="20dp"
+                android:paddingVertical="25dp"
+                android:backgroundTint="#08000000"
+                android:textColor="#009688"
+                android:textSize="17dp"
+                android:text="Thông tin cá nhân"/>
+
+            <Button android:id="@+id/profile_btn_noti"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/custom_profile_noti_ic"
+                android:layout_marginVertical="20dp"
+                android:paddingVertical="25dp"
+                android:backgroundTint="#08000000"
+                android:textColor="#2C62EA"
+                android:textSize="17dp"
+                android:text="Thông báo"/>
+
+            <Button android:id="@+id/profile_btn_schedule"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/custom_profile_schedule_ic"
+                android:layout_marginVertical="20dp"
+                android:paddingVertical="25dp"
+                android:backgroundTint="#08000000"
+                android:textColor="#D7F44336"
+                android:textSize="17dp"
+                android:text="Thời khóa biểu"/>
+
+            <Button android:id="@+id/profile_btn_logout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/custom_profile_logout_ic"
+                android:layout_marginVertical="20dp"
+                android:paddingVertical="25dp"
+                android:backgroundTint="#03A9F4"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:text="Đăng xuất"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
